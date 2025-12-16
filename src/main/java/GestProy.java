@@ -29,7 +29,10 @@ public class GestProy {
     // endregion
 
     public void terminarProyecto(int numProyecto) {
-        // TODO 31: Terminar proyecto
+        // TODO 31: Terminar proyecto DONE
+        Proyecto p = getProyecto(numProyecto);
+
+
 
     }
 

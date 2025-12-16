@@ -7,11 +7,14 @@ public class Proyecto {
 
     // region constructores
     public Proyecto(String nombre){
-        // TODO 41: Constructor 1 Proyecto
+        // TODO 41: Constructor 1 Proyecto DONE
+        this.nombre = nombre;
 
     }
     public Proyecto(String nombre, int presupuesto) {
-        // TODO 42: Constructor 2 Proyecto
+        // TODO 42: Constructor 2 Proyecto DONE
+        this.nombre = nombre;
+        this.presupuesto = presupuesto;
 
     }
     // endregion
@@ -64,7 +67,8 @@ public class Proyecto {
         equipo.setLider(numeroParticipante);
     }
     public void mostrarEquipo() {
-        // TODO 43: Mostrar el equipo
+        // TODO 43: Mostrar el equipo DONE
+        equipo.mostrar();
 
     }
 

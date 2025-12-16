@@ -41,7 +41,8 @@ public class Trabajador {
         // 123456789012345678901234567890
         // Aitor     90 E.
 
-         return String.format("%-8s% %3d E.",
+//        he quitado un % porque daba error al ejecutarse
+         return String.format("%-8s %3d E.",
                  nombre,
                  getPrecioHora());
 

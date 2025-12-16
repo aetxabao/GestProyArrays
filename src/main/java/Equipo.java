@@ -28,28 +28,34 @@ public class Equipo {
     }
 
     public boolean tieneLider() {
-        // TODO 21: Saber si el equipo tiene líder
+        // TODO 21: Saber si el equipo tiene líder DONE
         // se puede hacer con set trabajador
-        return false;
+
+        return lider != null;
+//        return false;
     }
 
     public Trabajador getLider() {
-        // TODO 22: Devolver quién es el líder
-        return null;
+        // TODO 22: Devolver quién es el líder DONE
+
+        return lider;
+//        return null;
     }
 
     public void setLider(int numeroParticipante) {
-        // TODO 23: Asignar el liderazgo a un participante
+        // TODO 23: Asignar el liderazgo a un participante DONE
+        lider = getParticipante(numeroParticipante);
 
     }
 
     public int getNumeroParticipantes() {
-        // TODO 24: Calcular el número de participantes utilizando un bucle
+        // TODO 24: Calcular el número de participantes utilizando un bucle DONE
         int num = 0;
-
-
-
-
+        for (int i = 1; i <=getMaxNumeroParticipantes() ; i++) {
+            if (getParticipante(i) != null) {
+                num++;
+            }
+        }
 
         return num;
     }
@@ -59,14 +65,13 @@ public class Equipo {
     }
 
     public boolean addParticipante(Trabajador trabajador) {
-        // TODO 25: Agregar un trabajador como participante si no se ha llegado al límite utilizando un bucle
-
-
-
-
-
-
-
+        // TODO 25: Agregar un trabajador como participante si no se ha llegado al límite utilizando un bucle DONE
+        for (int i = 1; i <=getMaxNumeroParticipantes() ; i++) {
+            if (getParticipante(i) == null) {
+                setParticipante(i,trabajador);
+                return true;
+            }
+        }
         return false;
     }
 

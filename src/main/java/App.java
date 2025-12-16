@@ -3,7 +3,8 @@ public class App {
     private GestProy gestProy;
 
     public App() {
-        // TODO 11: Inicializar atributos
+        // TODO 11: Inicializar atributos DONE
+        gestProy = new GestProy();
 
     }
 
@@ -52,6 +53,13 @@ public class App {
 
 
 
+//        FALTA IMPLEMENTAR EL BUCLE (kdarwic)
+        if (!gestProy.puedeHaberMasProyectos()) {
+            System.out.println("Terminael proyecto iniciado para añadir más participantes.");
+            return;
+        }
+
+
 
 
 
@@ -67,8 +75,9 @@ public class App {
 
     private void terminarProyecto() {
         int numProyecto = Gui.leerNumero("Indica el número del proyecto a cerrar: ");
-        // TODO 13: Terminar el proyecto
+        // TODO 13: Terminar el proyecto DONE
 
+        gestProy.terminarProyecto(numProyecto);
         System.out.println("Hecho.");
     }
 
@@ -82,7 +91,8 @@ public class App {
     }
 
     private void mostrarProyectos() {
-        // TODO 14: Mostrar proyectos
+        // TODO 14: Mostrar proyectos DONE
+        gestProy.mostrarProyectos();
 
     }
 
