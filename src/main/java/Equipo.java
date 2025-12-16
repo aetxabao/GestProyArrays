@@ -29,6 +29,7 @@ public class Equipo {
 
     public boolean tieneLider() {
         // TODO 21: Saber si el equipo tiene líder
+        // se puede hacer con set trabajador
         return false;
     }
 
