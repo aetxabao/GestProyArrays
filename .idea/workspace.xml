@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3312d61-55e4-44a4-9300-46a6437b37fe" name="Changes" comment="">
-<<<<<<< HEAD
-=======
 
-=======
-=======
->>>>>>> 9f8232f8d05628258dc200ea22d5723f6973aede
+    <list default="true" id="e3312d61-55e4-44a4-9300-46a6437b37fe" name="Changes" comment="">
+
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
->>>>>>> 6b852925bbd6b4813f70ffa0af5d34c97a89c9b3
+
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+
+    <list default="true" id="02cf7f1c-0310-41ba-83d6-c6c695a38006" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trabajador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trabajador.java" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -81,56 +82,14 @@
     "vue.rearranger.settings.migration": "true"
 >>>>>>> de083a87c397b8d926d8614d71f50e9821fcbcc0
 >>>>>>> 6b852925bbd6b4813f70ffa0af5d34c97a89c9b3
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "main"
+>>>>>>> 137d3fad48a9863ed3a67b7f7068e671d6c71e1f
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/doc/uml" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.Trabajadores">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="GestProy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration name="Trabajadores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trabajadores" />
-      <module name="GestProy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Trabajadores" />
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+}]]></component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="e3312d61-55e4-44a4-9300-46a6437b37fe" name="Changes" comment="" />
-      <created>1700952984180</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1700952984180</updated>
-      <workItem from="1700952986652" duration="16000" />
-      <workItem from="1701163409715" duration="2013000" />
-      <workItem from="1701377884892" duration="1281000" />
-      <workItem from="1701420996888" duration="3089000" />
-      <workItem from="1701987640701" duration="52000" />
-      <workItem from="1702249780922" duration="7314000" />
-      <workItem from="1702301327491" duration="382000" />
-      <workItem from="1765870057467" duration="2668000" />
-    </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
 </project>
