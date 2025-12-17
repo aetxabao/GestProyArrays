@@ -51,19 +51,21 @@ public class App {
         // mostrar la lista de trabajadores, leer el número del trabajador y añadirlo al proyecto
         // si no se puede agregar el participante al proyecto salir del bucle
 
+        while (true) {
 
+            Trabajadores.mostrar();
 
+            int numTrabajador = Gui.leerNumero("Número del trabajador: ");
+            if (numTrabajador == 0 || numTrabajador < 1 || numTrabajador > 8) { break; }
+//            gestProy.
 
 //        FALTA IMPLEMENTAR EL BUCLE (kdarwic)
-        if (!gestProy.puedeHaberMasProyectos()) {
-            System.out.println("Terminael proyecto iniciado para añadir más participantes.");
-            return;
+            if (!gestProy.puedeHaberMasProyectos()) {
+                System.out.println("Terminael proyecto iniciado para añadir más participantes.");
+                return;
+            }
+
         }
-
-
-
-
-
 
 
         System.out.println("Define el líder del equipo:");
