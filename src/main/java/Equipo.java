@@ -76,7 +76,7 @@ public class Equipo {
     }
 
     public void mostrar() {
-        // TODO 26: Mostrar los participantes del equipo junto con su número de participante utilizando un bucle
+        // TODO 26: Mostrar los participantes del equipo junto con su número de participante utilizando un bucle DONE
         for (int i = 1; i <=getMaxNumeroParticipantes() ; i++) {
             Trabajador t = getParticipante(i);
             if (t != null){
@@ -88,7 +88,7 @@ public class Equipo {
 
     public int getPrecioHora() {
         int precio = 0;
-        // TODO 27: Calcular el precio de la hora de todos los participantes del equipo utilizando un bucle
+        // TODO 27: Calcular el precio de la hora de todos los participantes del equipo utilizando un bucle DONE
 
         for (int i = 1; i <=getMaxNumeroParticipantes() ; i++) {
             Trabajador t = getParticipante(i);
@@ -98,5 +98,4 @@ public class Equipo {
         }
         return precio;
     }
-
 }

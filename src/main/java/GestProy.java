@@ -46,24 +46,25 @@ public class GestProy {
 
     public int getCantidadProyectosActivos() {
         int cantidad = 0;
-        // TODO 32: Contar el número de proyectos activos utilizando un bucle
-
-
-
-
-
+        // TODO 32: Contar el número de proyectos activos utilizando un bucle DONE
+        for (int i = 0; i < getMaxNumProyectos(); i++) {
+//            Proyecto p = getProyecto(i);
+            if (getProyecto(i) != null ) {
+            cantidad++;
+            }
+            }
 
         return cantidad;
     }
 
     public boolean addHorasProyecto(int numeroProyecto, int numeroHoras) {
-        // TODO 33: Añadir horas al número de proyecto indicado
+        // TODO 33: Añadir horas al número de proyecto indicado DONE
         // Si el proyecto no existe devolver false, sino true tras asignar las horas
-
-
-
-
-
+        Proyecto p = getProyecto(numeroProyecto);
+        if (p == null) {
+            return false;
+        }
+        p.addHoras(numeroHoras);
         return true;
     }
 
