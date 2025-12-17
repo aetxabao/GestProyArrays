@@ -53,6 +53,7 @@ public class App {
 
 
 
+
 //        FALTA IMPLEMENTAR EL BUCLE (kdarwic)
         if (!gestProy.puedeHaberMasProyectos()) {
             System.out.println("Terminael proyecto iniciado para añadir más participantes.");

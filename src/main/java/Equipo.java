@@ -77,11 +77,12 @@ public class Equipo {
 
     public void mostrar() {
         // TODO 26: Mostrar los participantes del equipo junto con su número de participante utilizando un bucle
-
-
-
-
-
+        for (int i = 1; i <=getMaxNumeroParticipantes() ; i++) {
+            Trabajador t = getParticipante(i);
+            if (t != null){
+                System.out.printf("%d. %s\n", i, t);
+            }
+        }
 
     }
 
@@ -89,11 +90,12 @@ public class Equipo {
         int precio = 0;
         // TODO 27: Calcular el precio de la hora de todos los participantes del equipo utilizando un bucle
 
-
-
-
-
-
+        for (int i = 1; i <=getMaxNumeroParticipantes() ; i++) {
+            Trabajador t = getParticipante(i);
+            if (t != null){
+                precio += t.getPrecioHora();
+            }
+        }
         return precio;
     }
 
